@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=gf
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="8a56c0cc040df9446e558a76a74da2fc26a38855"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="75dc8ac02688d7d08957af318a5d7eadfe072249"
 pkgrel=1
 _pkgdesc=(
   "Assumed vulnerable geo fencer."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="2be4de755d332f4822ad32d2450a7cd3d111684f36ce274adadd82402d818e8c"
+    _sum="60975eea9e8a9e362fb1c703901874546bf1e1f2d98c0797cd8fa411fa19fc3c"
   fi && \
     source+=(
       "${_tar}"
